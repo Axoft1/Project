@@ -1,5 +1,4 @@
 import { classNames } from 'shared/lib/classNames/classNames'
-import cls from './LanhgSwitcher.module.scss'
 import { useTranslation } from 'react-i18next'
 import { ThemeButton, Button } from 'shared/ui/Button/Button'
 
@@ -16,7 +15,7 @@ export default function LanhgSwitcher ({ className }: LanhgSwitcherProps): JSX.E
     <>
 
       <Button
-        className={classNames(cls.LanhgSwitcher, {}, [className])}
+        className={classNames('', {}, [className])}
         theme={ThemeButton.CLEAR}
         onClick={toggle}
       >
