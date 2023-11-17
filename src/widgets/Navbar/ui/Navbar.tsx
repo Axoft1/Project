@@ -6,7 +6,7 @@ interface NavbarProps {
   className?: string
 }
 
-export default function Navbar({ className }: NavbarProps): JSX.Element {
+export default function Navbar ({ className }: NavbarProps): JSX.Element {
   return (
     <div className={classNames(cls.navbar, {}, [className])}>
 
