@@ -1,6 +1,9 @@
 {
-    "Тестовый пример":"Test exemple",
-    "Перевод":"Translation",
-    "Язык": "En"
-
+    "Тестовый пример": "Test exemple",
+    "Перевод": "Translation",
+    "О сайте": "About the Site",
+    "Главная": "Main page",
+    "Язык": "En",
+    "Произошла непредвиденная ошибка": "An unexpected error has occurred",
+    "Обновить страницу": "Refresh page"
 }

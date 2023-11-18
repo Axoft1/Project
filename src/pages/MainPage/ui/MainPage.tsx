@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next'
 import './css.scss'
+import { BugButton } from 'app/ErrorBuondarie'
 // import { useCallback, useEffect, useRef, useState } from 'react'
 
 const MainPage = (): JSX.Element => {
@@ -19,7 +20,7 @@ const MainPage = (): JSX.Element => {
   // }, [handleScroll])
 
   return (
-        <div>
+    <div><BugButton />
             {t('Главная страница')}
             {/* {pos} */}
             {/* <div ref={ref} className='css' style={{ rotate: '280deg' }}></div> */}
