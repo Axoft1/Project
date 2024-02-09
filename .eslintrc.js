@@ -5,7 +5,12 @@ module.exports = {
     es2021: true,
     jest: true
   },
-  extends: ["standard-with-typescript", "plugin:react/jsx-runtime", "plugin:i18next/recommended"],
+  extends: [
+    "standard-with-typescript",
+    "plugin:react/jsx-runtime",
+    "plugin:i18next/recommended",
+    "plugin:storybook/recommended"
+  ],
   overrides: [
     {
       env: {

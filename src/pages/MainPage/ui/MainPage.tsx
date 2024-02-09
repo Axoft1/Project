@@ -21,11 +21,11 @@ const MainPage = (): JSX.Element => {
 
   return (
     <div><BugButton />
-            {t('Главная страница')}
-            {/* {pos} */}
-            {/* <div ref={ref} className='css' style={{ rotate: '280deg' }}></div> */}
+      {t('Главная страница')}
+      {/* {pos} */}
+      {/* <div ref={ref} className='css' style={{ rotate: '280deg' }}></div> */}
 
-        </div>
+    </div>
   )
 }
 
